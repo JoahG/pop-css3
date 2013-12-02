@@ -37,18 +37,6 @@ div.popcorn div:nth-child(1) {
 	left: 20%;
 }
 
-div.popcorn div:nth-child(3) {
-	height: 65%;
-	width:  65%;
-
-	background-color: rgb(255,227,0);
-
-	top: 35%;
-	right: 35%;
-	bottom: 0;
-	left: 0;
-}
-
 div.popcorn div:nth-child(2) {
 	height: 75%;
 	width:  75%;
@@ -59,4 +47,16 @@ div.popcorn div:nth-child(2) {
 	right: 0;
 	bottom: 0;
 	left: 25%;
+}
+
+div.popcorn div:nth-child(3) {
+	height: 65%;
+	width:  65%;
+
+	background-color: rgb(255,227,0);
+
+	top: 35%;
+	right: 35%;
+	bottom: 0;
+	left: 0;
 }
