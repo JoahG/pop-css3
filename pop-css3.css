@@ -21,7 +21,7 @@ div.popcorn div {
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
+	filter: alpha(opacity=60);
 	opacity: 0.6;
 }
 
@@ -53,9 +53,6 @@ div.popcorn div:nth-child(2) {
 	height: 75%;
 	width:  75%;
 
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
 	background-color: rgb(255,235,76);
 
 	top: 25%;
