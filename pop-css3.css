@@ -10,16 +10,16 @@ div.popcorn {
 	width: 100px;
 	height: 100px;
 	margin: auto;
-	-ms-transform: 		rotate(20deg); 
-	-webkit-transform: 	rotate(20deg); 
-	transform: 			rotate(20deg);
+	-ms-transform: rotate(20deg); 
+	-webkit-transform: rotate(20deg); 
+	transform: rotate(20deg);
 }
 
 div.popcorn div {
 	position: absolute;
-	-webkit-border-radius: 	50%;
-	-moz-border-radius: 	50%;
-	border-radius: 			50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     filter: alpha(opacity=60);
 	opacity: 0.6;
@@ -53,9 +53,9 @@ div.popcorn div:nth-child(2) {
 	height: 75%;
 	width:  75%;
 
-	-webkit-border-radius: 	50%;
-	-moz-border-radius: 	50%;
-	border-radius: 			50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
 	background-color: rgb(255,235,76);
 
 	top: 25%;
