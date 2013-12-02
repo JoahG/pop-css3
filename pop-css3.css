@@ -1,0 +1,59 @@
+div.popcorn {
+	display:block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	-ms-transform: 		rotate(20deg); 
+	-webkit-transform: 	rotate(20deg); 
+	transform: 			rotate(20deg);
+}
+
+div.popcorn div {
+	position: absolute;
+	-webkit-border-radius: 	50%;
+	-moz-border-radius: 	50%;
+	border-radius: 			50%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+	opacity: 0.6;
+}
+
+div.popcorn div:nth-child(1) {
+	height: 65%;
+	width:  65%;
+
+	background-color: rgb(235,213,36);
+
+	top: 0;
+	right: 15%;
+	bottom: 35%;
+	left: 20%;
+}
+
+div.popcorn div:nth-child(3) {
+	height: 65%;
+	width:  65%;
+
+	background-color: rgb(255,227,0);
+
+	top: 35%;
+	right: 35%;
+	bottom: 0;
+	left: 0;
+}
+
+div.popcorn div:nth-child(2) {
+	height: 75%;
+	width:  75%;
+
+	-webkit-border-radius: 	50%;
+	-moz-border-radius: 	50%;
+	border-radius: 			50%;
+	background-color: rgb(255,235,76);
+
+	top: 25%;
+	right: 0;
+	bottom: 0;
+	left: 25%;
+}
