@@ -6,7 +6,7 @@ Popcorn made as a CSS3 object
 To use, simply add `pop-css3.css` to your `<head>`:
 
 ```
-	<link rel="stylesheet" href="pop-css3.css">
+	<link rel="stylesheet" href="pop-css3.min.css">
 ```
 
 and a `div.popcorn` to your HTML:
